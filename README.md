@@ -1,1 +1,1 @@
-link da página: https://rogelioreis.github.io/Facebook-Login/
+Confiram a página: https://rogelioreis.github.io/Facebook-Login/
