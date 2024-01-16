@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Arial', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.corpo {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 95vh;
+    background-color: #F0F2F5;
+}
+
+.roda-pe {
+    background-color: #FFFFFF;
+    height: 137px;
+    width: 100%;
+}
+
+.contener {
+    height: 496px;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    left: -30px;
+    margin-bottom: 120px;
+}
+
+.text>h1 {
+    font-size: 29px;
+    bottom: 7px;
+    position: relative;
+    right: -30px;
+}
+
+.logo-img {
+    height: 106px;
+}
+
+
+.card-box {
+    width: 396px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgb(204, 204, 204);
+    padding: 17px;
+    padding-bottom: 24px;
+}
+
+.conteudo-box {
+    background-color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #FFFFFF;
+    border: 1px solid #dfdfdf;
+    padding: 18px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    box-shadow: 0px 0px 4px #609dee;
+    outline: 1px solid #1877F2;
+}
+
+
+input[type="email"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
+    color: #c8c8c8
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #909cA2
+}
+
+button[type="submit"] {
+    background-color: #1877F2;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.esqueceu-senha {
+    display: flex;
+    color: #1877F2;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.barra-decorativa {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #dfdfdf;
+    height: 1px;
+    width: 100%;
+}
+
+button[type="criar-nova-conta"] {
+    background: #42B72A;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 0;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="criar-nova-conta"]:hover {
+    background: #36A420;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-criar-pagina {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    width: 396px;
+    font-size: 14px;
+}
+
+.criar-uma-pagina {
+    font-weight: bold;
+    color: black;
+}
